@@ -37,3 +37,8 @@ func loadBookworms(filePath string) ([]Bookworm, error) {
 
 	return bookworms, nil
 }
+
+// findCommonBooks returns books that are on more than one bookworm's shelf
+func findCommonBooks(bookworms []Bookworm) []Book {
+	return nil
+}
